@@ -1,0 +1,56 @@
+ /* HEADER empieza titulo de la pagina*/
+#encabezado h1{
+	text-align: center;
+	font-size: 50px;
+	font-family: 'Acme', sans-serif;
+}
+/*termina titulo de la pagina*/
+/*empieza menu*/
+#menu{ 
+	background-color: black;
+	padding: 10px;
+}
+#menupri{
+	padding: 0px;
+}
+#menupri li{
+	display: inline;
+		padding: 135px;
+}
+#menupri li a{
+	font-family: 'Ubuntu', sans-serif;
+	color: white;
+	text-decoration: none; /*para que no tenga viñetas*/
+
+}
+#menupri li a:hover{
+	color:#A4ABA2;
+	transition: 0.7s;
+
+}
+/* HEADER termina menu*/
+
+/* SECTION empieza div formulario y ubicacion */
+#form-ubi{
+	width: 100%;
+	margin: 45px;
+}
+/*formulario*/
+#formulario{
+	width: 50%;
+	float: left;
+	margin: 3px;
+  	padding: 3px;
+}
+/* titulo del formulario*/
+#titulo{
+	font-family: 'Hammersmith One', sans-serif;
+	color: #299D94;
+}
+/*ubicacion*/
+#ubicanos{
+	width: 50%;
+	float: right;
+	margin: -37px;
+}
+/* SECTION termina div formulario y ubicacion*/

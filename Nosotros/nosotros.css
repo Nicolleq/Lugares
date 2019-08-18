@@ -1,0 +1,72 @@
+body{
+	background-color: #F4FAFA;
+}
+/*HEADER empieza titulo de la pagina*/
+#encabezado h1{
+	text-align: center;
+	font-size: 50px;
+	font-family: 'Acme', sans-serif;
+}
+/*termina titulo de la pagina*/
+/*empieza menu*/
+#menu{ 
+	background-color: black;
+	padding: 10px;
+}
+#menupri{
+	padding: 0px;
+}
+#menupri li{
+	display: inline;
+		padding: 135px;
+}
+#menupri li a{
+	font-family: 'Ubuntu', sans-serif;
+	color: white;
+	text-decoration: none; /*para que no tenga viñetas*/
+
+}
+#menupri li a:hover{
+	color:#A4ABA2;
+	transition: 0.7s;
+
+}
+/*HEADER termina menu*/
+/* empieza SECTION*/
+section{
+	padding: 30px;
+}
+/*empieza historia*/
+#nosotros h2{
+	text-align: center;
+	font-size: 40px;
+}
+#nosotros p{
+	margin: 30px;
+	text-align: justify;
+}
+/*termina historia*/
+/*empieza div mision-vision*/
+#mision-vision{
+	width: 100%;
+}
+#mision{
+	width: 50%;
+	float: left;
+}
+#mision h3{
+	text-align: center;
+}
+#vision{
+	width: 50%;
+	float: right;
+}
+#vision h3{
+	text-align: center;
+}
+#mision p , #vision p{
+	text-align: justify;
+	font-size: 14px;
+	padding: 20px;
+}
+/*termina SECTION y div mision-vision*/

@@ -1,0 +1,65 @@
+/*HEADER empieza titulo de la pagina*/
+#encabezado h1{
+	text-align: center;
+	font-size: 50px;
+	font-family: 'Acme', sans-serif;
+}
+/*termina titulo de la pagina*/
+/*empieza menu*/
+#menu{ 
+	background-color: black;
+	padding: 10px;
+}
+#menupri{
+	padding: 0px;
+}
+#menupri li{
+	display: inline;
+		padding: 135px;
+}
+#menupri li a{
+	font-family: 'Ubuntu', sans-serif;
+	color: white;
+	text-decoration: none; /*para que no tenga viñetas*/
+
+}
+#menupri li a:hover{
+	color:#A4ABA2;
+	transition: 0.7s;
+
+}
+/*HEADER termina menu*/
+/*SECTION portada*/
+#portada img{
+	width: 100%;
+	height: 400px;
+	margin: 0px;
+	padding: 0px;
+}
+#info{
+	position: absolute;
+	top: 60%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-size: 50px;
+	color: white;
+}
+/*SECTION contenido*/
+#contenido p{
+	text-align: justify;
+	margin: 50px;
+	font-size: 20px;
+}
+#lugares{
+	width: 100%;
+}
+#suspiros, #museo, #mirador, #iglesia{
+	width: 25%;
+}
+img{
+	width: 210px;
+	height: 170px;
+}
+h2{
+	font-size: 20px;
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Bla bla bla | Contáctenos</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="contactenos.css">
+	<link href="https://fonts.googleapis.com/css?family=Acme&display=swap" rel="stylesheet"><!--titulo de la pagina-->
+	<link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet"> <!--menu-->
+	<link href="https://fonts.googleapis.com/css?family=Hammersmith+One&display=swap" rel="stylesheet"> <!--titulo "formulario"-->
+</head>
+<body>
+	<header>
+		<div id="encabezado">
+			<h1>Bla bla bla</h1>
+		</div>
+		<nav id="menu">
+			<ul id="menupri">
+				<li><a href="../inicio.html" target="_blank">Inicio</a></li>
+				<li><a href="../Nosotros/nosotros.html" target="_blank">Nosotros</a></li>
+				<li><a href="../Lugares/x.html" target="_blank">Sitios</a></li>
+				<li><a href="contactenos.html">Contáctenos</a></li>
+			</ul>
+		</nav>
+	</header>
+	<br>
+	<section>
+		<div id="form-ubi">
+			<form id="formulario" onsubmit="return validacion()">
+				<fieldset>
+					<legend id="titulo">Formulario</legend>
+					<p>
+						Nombre: 
+						<br>
+						<input type="text" name="nom" id="campoNombre" required>
+					</p>
+					<p>
+						Apellido:
+						<br> 
+						<input type="text" name="apellido" id="campoApellido" required>
+					</p>
+					<p>
+						Correo:
+						<br> 
+						<input type="text" name="correo" id="campoCorreo" required>
+					</p>
+					<p>
+						Alguna duda o sugerencia, deje un mensaje: 
+						<br>
+						<textarea name="mensaje"></textarea>
+					</p>
+				</fieldset>
+				<br>
+				<input type="submit" value="Enviar la información" onclick="boton()">
+			</form>
+
+			<div id="ubicanos">
+				<h2>Nos puede ubicar en: </h2>
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7802.603605869805!2d-77.085265376217!3d-12.091479365750006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c99f6d33dec7%3A0x62eac7a493f416b8!2sUrb+San+Miguel%2C+San+Miguel!5e0!3m2!1ses-419!2spe!4v1565132125217!5m2!1ses-419!2spe" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+			</div>
+		</div>
+
+	</section>
+</body>
+</html>
